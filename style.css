@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+}
+
+header {
+    background-image: none;
+    background-color: #660066;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.szovegMain {
+    background-image: url(giphy-ezgif.com-resize\ \(1\).webp);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.szovegMain h1 {
+    font-size: 1.5em;
+}
+
+
+.fontosResz {
+    text-align: center;
+    padding: 25px;
+}
+
+
+.kocsiDobozMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kocsiDobozCuccok {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.kocsiDobozCuccok:hover{    
+    color: purple;
+    transition: 0.3s
+}
+
+.kocsiDobozCuccok img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #660066;
+}
+
+@media (max-width: 576px) {
+    h1, h2, p {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 1500px) {
+    header {
+        background-image: url(szendvicsmenu.png);
+        background-size: cover;
+    }
+}
